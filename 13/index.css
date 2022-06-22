@@ -1,0 +1,28 @@
+#nav-bar{
+    background-color: #4242fd;
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+}
+.container {
+    background-color: white;
+    padding: 2rem;
+}
+
+#home {
+    font-size: 1.3rem;
+    background-color: #0a00d2;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1.3rem;
+}
+
+#live-project {
+    font-weight: 600;
+    background-color: white;
+    color: #483efe;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #483efe;
+    border-radius: 0.5rem;
+}

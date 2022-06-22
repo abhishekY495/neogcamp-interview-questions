@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+:root {
+    --primary-color: #f0ff46;
+    --secondary-color: #00da12;
+}
+
+.container {
+    font-family: 'Fascinate', sans-serif;
+    font-size: 1.8rem;
+}
+button {
+    font-size: 1.5rem;
+}
+
+#heading-1 {
+    color: var(--primary-color);
+}
+#heading-2 {
+    color: var(--secondary-color);
+}
+
+#primary-btn {
+    background-color: var(--primary-color);
+    font-family: 'Fascinate', sans-serif;
+}
+#secondary-btn {
+    background-color: var(--secondary-color);
+    font-family: 'Fascinate', sans-serif;
+}
