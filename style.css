@@ -13,7 +13,7 @@ body {
     padding: 0;
     margin: 0;
 }
-h1,h2,p {
+h1,h2,h3,p {
     padding: 0;
     margin: 0;
 }
@@ -95,19 +95,14 @@ button {
     margin: 0 0.3rem;
     font-size: 1rem;
 }
-#replit-link {
-    border: 2px solid white;
-    padding: 0.2rem 1.8rem;
-    border-radius: 0.3rem;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-}
-#replit-link:hover {
-    background-color: white;
-    color: black;
-    font-weight: 500;
+
+#pull-request {
+    font-size: 1.2rem;
+    max-width: 900px;
+    padding: 0 1rem;
 }
 
+/*  */
 
 @media (max-width:425px) {
     .question {
