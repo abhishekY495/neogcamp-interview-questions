@@ -13,7 +13,7 @@ function callApi() {
             if (res.status === 404) {
                 output.innerText = 'Page not found 😢';
             } else if (res.status === 403) {
-                output.innerText = 'You are not logged in.'
+                output.innerText = 'Access to the requested resource is Forbidden'
             } else {
                 return res.json()
             }
