@@ -25,7 +25,7 @@ function getAge() {
     fetch(getUrl())
         .then(res => res.json())
         .then(data => {
-            output.innerText = `Hello ${data.name}, your age is ${data.age}.`;
+            output.innerText = `Hello ${data.name.toUpperCase()}, your age is ${data.age}.`;
         })
         .catch(error => output.innerText = error);
 };
