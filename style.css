@@ -47,7 +47,6 @@ a {
 }
 .question:hover {
     background-color: var(--link-hover-background-color);
-    transform: translateX(1.5px);
 }
 
 .question span {
@@ -107,5 +106,12 @@ button {
 @media (max-width:425px) {
     .question {
         font-size: 1.1rem;
+    }
+}
+
+@media (max-width:380px) {
+    .link-container > .link {
+        width: 100%;
+        text-align: center;
     }
 }
